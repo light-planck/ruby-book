@@ -1,0 +1,16 @@
+# TypeProf 0.21.3
+
+module Minitest
+  class Test
+    def assert_equal: (untyped, untyped) -> void
+  end
+end
+
+class Object
+  private
+  def test_fizz_buzz: -> untyped
+end
+
+class FizzBuzzTest < Minitest::Test
+  def fizz_buzz: (Integer: n) -> String
+end
