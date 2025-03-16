@@ -12,7 +12,3 @@ def fizz_buzz(n)
     n.to_s
   end
 end
-
-15.times do |i|
-  puts fizz_buzz(i + 1)
-end
